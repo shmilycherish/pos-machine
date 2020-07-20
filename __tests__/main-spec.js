@@ -3,7 +3,7 @@ const main = require('../main');
 describe('print receipt', () => {
     it('should print receipt to console correctly when print receipt given multiple barcodes',
         () => {
-            let barcodes = [
+            const barcodes = [
                 'ITEM000000',
                 'ITEM000000',
                 'ITEM000000',
